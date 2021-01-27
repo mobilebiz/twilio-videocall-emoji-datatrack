@@ -1,0 +1,27 @@
+{
+  "name": "twilio-videocall-emoji-datatrack",
+  "version": "1.0.0",
+  "description": "A basic video conference application built by using Flask &amp; Twilio Data Track APIs with Live Emoji Overlay support ![Video Call in Action](https://github.com/abhimanyu-bitsgoa/twilio-videocall-emoji-datatrack/blob/main/Twilio%20Emoji.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run --env",
+    "deploy": "twilio serverless:deploy --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobilebiz/twilio-videocall-emoji-datatrack.git"
+  },
+  "author": "Katsumi Takahashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobilebiz/twilio-videocall-emoji-datatrack/issues"
+  },
+  "homepage": "https://github.com/mobilebiz/twilio-videocall-emoji-datatrack#readme",
+  "devDependencies": {
+    "twilio-run": "^2.8.0"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0"
+  }
+}

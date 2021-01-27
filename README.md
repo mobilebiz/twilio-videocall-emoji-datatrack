@@ -1,15 +1,20 @@
 # twilio-videocall-emoji-datatrack
-A basic video conference application built by using Flask &amp; Twilio Data Track APIs with Live Emoji Overlay support
-![Video Call in Action](https://github.com/abhimanyu-bitsgoa/twilio-videocall-emoji-datatrack/blob/main/Twilio%20Emoji.gif)
+
+A basic video conference application built by using Twilio Data Track APIs with Live Emoji Overlay support
+This project was fork from [Here](https://github.com/abhimanyu-bitsgoa/twilio-videocall-emoji-datatrack).  
+And remake to Node.js & Twilio Serverless.
 
 ## Installation Instructions
 
 To install the application on your system follow these steps:
 
-1. [Create a Twilio account](http://www.twilio.com/referral/6HZdVE) (if you don't have one yet). It's free!
+1. [Create a Twilio account](https://cloudapi.kddi-web.com/signup) (if you don't have one yet). It's free!
 2. [Generate an API Key](https://www.twilio.com/console/project/api-keys) for your account.
-3. Clone this repository
-4. Create a virtualenv and install the requirements
-5. Create a *.env* file by copying the *.env.template* file. Fill out the values for your Twilio account's SID, API Key SID and API Key Secret.
-6. Execute `python app.py` to start the server.
-7. Navigate to *http://localhost:5000* on your web browser. Connecting to the service from a phone or another computer may not work, as browsers require a secure (HTTPS) connection to give access to the media APIs. In that case, I suggest you use [ngrok](https://ngrok.com/) to give your application a temporary HTTPS URL.
+3. [Install twilio CLI](https://qiita.com/mobilebiz/items/456ce8b455f6aa84cc1e) (if you don't install it.)
+4. [Install twilio CLI Serverless plugins](https://qiita.com/mobilebiz/items/fb4439bf162098e345ae) (if you don't install it.)
+5. Clone this repository, and move to crone directory.
+6. Execute `npm install`.
+7. Create a _.env_ file by copying the _.env.example_ file. Fill out the values for your Twilio account's SID, AuthToken, API Key SID and API Key Secret.
+8. Execute `npm start` to start local PC.
+9. Navigate to [http://localhost:3000/index.html](http://localhost:3000/index.html) on your web browser. It's local test.
+10. Execute `npm run deploy` to deploy twilio serverless server.
