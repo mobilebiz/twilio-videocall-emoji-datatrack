@@ -1,7 +1,7 @@
 # twilio-videocall-emoji-datatrack
 
-A basic video conference application built by using Twilio Data Track APIs with Live Emoji Overlay support
-This project was fork from [Here](https://github.com/abhimanyu-bitsgoa/twilio-videocall-emoji-datatrack).  
+A basic video conference application built by using Twilio Data Track APIs with Live Emoji Overlay support.  
+This project was forked from [Here](https://github.com/abhimanyu-bitsgoa/twilio-videocall-emoji-datatrack).  
 And remake to Node.js & Twilio Serverless.
 
 ## Installation Instructions
